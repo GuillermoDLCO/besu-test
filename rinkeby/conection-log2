@@ -1,0 +1,20 @@
+Setting logging level to INFO
+2020-01-10 10:40:11.021-05:00 | main | INFO  | Besu | Starting Besu version: besu/v1.3.8/linux-x86_64/oracle-java-11
+2020-01-10 10:40:11.802-05:00 | main | INFO  | StaticNodesParser | StaticNodes file /home/dev/Documents/besu-rinkeby/data/static-nodes.json does not exist, no static connections will be created.
+2020-01-10 10:40:11.809-05:00 | main | INFO  | Besu | Connecting to 0 static nodes.
+2020-01-10 10:40:14.353-05:00 | main | INFO  | KeyPairUtil | Generated new key 0x22b63d98f35e3c030acffa2619caed54b0344da7f8aae65f67284a77e36b6acd4169b001d4eead2112fc0aef6887853c5c026769488fb95cf793338caf284e97 and stored it to /home/dev/Documents/besu-rinkeby/data/key
+2020-01-10 10:40:14.403-05:00 | main | INFO  | RocksDBKeyValueStorageFactory | No existing database detected at /home/dev/Documents/besu-rinkeby/data. Using version 1
+2020-01-10 10:40:15.536-05:00 | main | INFO  | ProtocolScheduleBuilder | Protocol schedule created with milestones: [Frontier: 0, Homestead: 1, TangerineWhistle: 2, SpuriousDragon: 3, Byzantium: 1035301, Constantinople: 3660663, ConstantinopleFix: 4321234, Istanbul: 5435345]
+2020-01-10 10:40:16.950-05:00 | main | INFO  | Runner | Starting Ethereum main loop ... 
+2020-01-10 10:40:16.960-05:00 | main | INFO  | NetworkRunner | Starting Network.
+2020-01-10 10:40:17.319-05:00 | nioEventLoopGroup-2-1 | INFO  | RlpxAgent | P2P RLPx agent started and listening on /0:0:0:0:0:0:0:0:30303.
+2020-01-10 10:40:17.321-05:00 | main | INFO  | PeerDiscoveryAgent | Starting peer discovery agent on host=0.0.0.0, port=30303
+2020-01-10 10:40:17.612-05:00 | vert.x-eventloop-thread-1 | INFO  | VertxPeerDiscoveryAgent | Started peer discovery agent successfully, on effective host=0:0:0:0:0:0:0:0 and port=30303
+2020-01-10 10:40:17.618-05:00 | vert.x-eventloop-thread-1 | INFO  | PeerDiscoveryAgent | P2P peer discovery agent started and listening on /0:0:0:0:0:0:0:0:30303
+2020-01-10 10:40:17.854-05:00 | main | INFO  | DefaultP2PNetwork | Enode URL enode://22b63d98f35e3c030acffa2619caed54b0344da7f8aae65f67284a77e36b6acd4169b001d4eead2112fc0aef6887853c5c026769488fb95cf793338caf284e97@0.0.0.0:30303
+2020-01-10 10:40:17.880-05:00 | main | INFO  | DefaultSynchronizer | Starting synchronizer.
+2020-01-10 10:40:17.900-05:00 | main | INFO  | FastSyncDownloader | Start fast sync.
+2020-01-10 10:40:17.910-05:00 | main | INFO  | WaitForPeersTask | Waiting for 5 peers to connect. 0 peers currently connected.
+2020-01-10 10:40:18.089-05:00 | main | INFO  | JsonRpcHttpService | Starting JsonRPC service on 127.0.0.1:8545
+2020-01-10 10:40:18.521-05:00 | vert.x-eventloop-thread-0 | INFO  | JsonRpcHttpService | JsonRPC service started and listening on 127.0.0.1:8545
+2020-01-10 10:40:18.528-05:00 | main | INFO  | Runner | Ethereum main loop is up.
