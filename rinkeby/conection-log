@@ -1,0 +1,55 @@
+Setting logging level to INFO
+2020-01-10 09:20:17.715-05:00 | main | INFO  | Besu | Starting Besu version: besu/v1.3.8/linux-x86_64/oracle-java-11
+2020-01-10 09:20:18.745-05:00 | main | INFO  | StaticNodesParser | StaticNodes file /home/dev/Documents/besu-rinkeby/data/static-nodes.json does not exist, no static connections will be created.
+2020-01-10 09:20:18.746-05:00 | main | INFO  | Besu | Connecting to 0 static nodes.
+2020-01-10 09:20:22.125-05:00 | main | INFO  | KeyPairUtil | Generated new key 0x26b649edf26708247f08e59d550c28c235a3e0a7e34334e75418f4d441c1a18cca2b7caf13580c0b1b62bb8f3f85e33a0dfc61aa8d49bc62c010acfa0d8db03a and stored it to /home/dev/Documents/besu-rinkeby/data/key
+2020-01-10 09:20:22.129-05:00 | main | WARN  | Besu | Privacy is disabled. Cannot use EEA/PRIV API methods when not using Privacy.
+2020-01-10 09:20:22.222-05:00 | main | INFO  | RocksDBKeyValueStorageFactory | No existing database detected at /home/dev/Documents/besu-rinkeby/data. Using version 1
+2020-01-10 09:20:23.685-05:00 | main | INFO  | ProtocolScheduleBuilder | Protocol schedule created with milestones: [Frontier: 0, Homestead: 1150000, DaoRecoveryInit: 1920000, DaoRecoveryTransition: 1920001, Homestead: 1920010, TangerineWhistle: 2463000, SpuriousDragon: 2675000, Byzantium: 4370000, ConstantinopleFix: 7280000, Istanbul: 9069000, MuirGlacier: 9200000]
+2020-01-10 09:20:28.736-05:00 | main | INFO  | Runner | Starting Ethereum main loop ... 
+2020-01-10 09:20:28.758-05:00 | main | INFO  | NetworkRunner | Starting Network.
+2020-01-10 09:20:29.084-05:00 | nioEventLoopGroup-2-1 | INFO  | RlpxAgent | P2P RLPx agent started and listening on /0:0:0:0:0:0:0:0:30303.
+2020-01-10 09:20:29.086-05:00 | main | INFO  | PeerDiscoveryAgent | Starting peer discovery agent on host=0.0.0.0, port=30303
+2020-01-10 09:20:29.312-05:00 | vert.x-eventloop-thread-1 | INFO  | VertxPeerDiscoveryAgent | Started peer discovery agent successfully, on effective host=0:0:0:0:0:0:0:0 and port=30303
+2020-01-10 09:20:29.342-05:00 | vert.x-eventloop-thread-1 | INFO  | PeerDiscoveryAgent | P2P peer discovery agent started and listening on /0:0:0:0:0:0:0:0:30303
+2020-01-10 09:20:29.656-05:00 | main | INFO  | DefaultP2PNetwork | Enode URL enode://26b649edf26708247f08e59d550c28c235a3e0a7e34334e75418f4d441c1a18cca2b7caf13580c0b1b62bb8f3f85e33a0dfc61aa8d49bc62c010acfa0d8db03a@127.0.0.1:30303
+2020-01-10 09:20:29.703-05:00 | main | INFO  | DefaultSynchronizer | Starting synchronizer.
+2020-01-10 09:20:29.712-05:00 | main | INFO  | FullSyncDownloader | Start full sync.
+2020-01-10 09:20:29.743-05:00 | main | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:20:30.016-05:00 | main | INFO  | JsonRpcHttpService | Starting JsonRPC service on 127.0.0.1:8545
+2020-01-10 09:20:30.611-05:00 | vert.x-eventloop-thread-0 | INFO  | JsonRpcHttpService | JsonRPC service started and listening on 127.0.0.1:8545
+2020-01-10 09:20:30.617-05:00 | main | INFO  | Runner | Ethereum main loop is up.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.fasterxml.jackson.databind.util.ClassUtil (file:/home/dev/besu-1.3.8/lib/jackson-databind-2.10.0.jar) to constructor java.util.OptionalLong()
+WARNING: Please consider reporting this to the maintainers of com.fasterxml.jackson.databind.util.ClassUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2020-01-10 09:20:34.922-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:20:39.927-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:20:44.929-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:20:49.930-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:20:54.937-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:20:59.939-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:04.940-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:09.942-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:14.945-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:19.947-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:24.948-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:29.959-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:34.960-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:39.962-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:44.965-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:49.966-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:54.974-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:21:59.978-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:22:04.980-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:22:09.981-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:22:14.982-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:22:19.983-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:22:24.984-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:22:29.987-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:22:34.988-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:22:39.990-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:22:44.991-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:22:49.993-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
+2020-01-10 09:22:54.995-05:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, wait for peers.
